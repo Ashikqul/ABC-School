@@ -1,10 +1,121 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-
-
 .quick-sand-font {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
   font-weight:400;
   font-style: normal;
+}
+
+
+/* shared style */
+
+.color-1{
+    color: orange;
+    
+}
+.color-2{
+color: skyblue;
+}
+.color-3{
+color: #05D4DF;
+}
+.color-4{
+color: #5D58EF;
+}
+.btn-primary{
+    background-color: orange;
+    color:white;
+    font-weight:600;
+    font-size: 20px;
+    padding: 10px 10px;
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+}
+
+.text-center{
+   text-align: center;
+}
+
+
+
+/* nav styles */
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    margin: 0px 40px ;
+    
+}
+nav img {
+    width: 62px;
+    height: 62px;
+    margin-right: 20px; 
+}
+.nav-title{
+    gap: 20px;
+    font-weight: 700;
+    font-size: 32px;
+   margin-right: 300px;
+   
+   
+}
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+    align-items: center;
+    
+    }
+    nav li a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600px;
+        
+    }
+    nav ul{
+        display: flex;
+        align-items: center;
+        
+        }
+        /* banner style */
+        .banner{
+            display: flex;
+            justify-content: space-between;
+            margin: 0 40px 0 40px;
+        }
+        .banner-content{
+            max-width: 640px;
+        }
+        
+        .banner-title{
+            font-weight: bold;
+            font-size: 56px;
+
+        }
+        .banner-description{
+            font-weight: 400;
+            font-size: 20px;
+        }
+        .banner-pic{
+            width: 468.61;
+        }
+
+        .banner .banner-button{
+            background-color: black;
+            color: white;
+            
+    font-weight:600;
+    font-size: 20px;
+    padding: 10px 10px;
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+}
+.main{
+    background-image: url("../assets/bg.png");
+    background-repeat: no-repeat;
 }
