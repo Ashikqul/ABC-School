@@ -6,6 +6,9 @@
   font-weight:400;
   font-style: normal;
 }
+.body{
+    color: White;
+}
 
 
 /* shared style */
@@ -23,6 +26,8 @@ color: #05D4DF;
 .color-4{
 color: #5D58EF;
 }
+
+
 .btn-primary{
     background-color: orange;
     color:white;
@@ -33,6 +38,7 @@ color: #5D58EF;
     height: 50px;
     border-radius: 12px;
     border: none;
+   
 }
 
 .text-center{
@@ -115,14 +121,22 @@ nav ul li {
     border-radius: 12px;
     border: none;
 }
-.main{
+.main, {
     background-image: url("../assets/bg.png");
     background-repeat: no-repeat;
+    
+   
+}
+
+.view-all{
+    text-align: center;
 }
 main section{
     margin-top: 120px;
     margin-bottom: 120px;
 }
+
+
 
 /* curriculums section styles */
 
@@ -158,6 +172,23 @@ width: 286.26;
     
 }
 
-.curriculum-description{
+/* stories-container */
+
+.section-title{
+    text-align: center;
+}
+
+.stories-container{
+    display: flex;
+    gap: 15px;
+}
+.story{
     
+    text-align: start;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.story, .v-all{
+    align-items: center;
 }
