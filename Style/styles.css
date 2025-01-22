@@ -259,4 +259,82 @@ font-weight: 400px;
 font-size: 20px;
  }
 
+ 
+
+
+@media (max-width: 576px) {
+    
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    
+    .banner {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .banner-content {
+        margin-bottom: 20px;
+    }
+
+    .banner-pic {
+        max-width: 100%; 
+        height: auto;
+    }
+
+   
+    .curriculums-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .curriculum {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .curriculum img {
+        width: 100%; 
+        height: auto;
+    }
+
+    
+    .stories-container {
+        flex-direction: column;
+    }
+
+    .story {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-column {
+        margin-bottom: 20px;
+    }
+
+    .social-icon .Icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-icon .Icon a {
+        margin: 0 5px;
+    }
+}
+
     
